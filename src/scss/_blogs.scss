@@ -1,0 +1,30 @@
+body{
+    background-color: whitesmoke;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 20px;
+
+    #blogMenu{
+        width: 300px;
+    }
+}
+
+main{
+display: flex;
+justify-content: center;
+    #blogPost{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        width: 50%;
+        div{
+            background-color: white;
+            padding: 20px;
+        }
+    }
+}

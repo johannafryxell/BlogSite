@@ -1,0 +1,35 @@
+body {
+  background-color: whitesmoke;
+}
+
+main {
+  display: flex;
+}
+main #create-form, main #blogList, main #postList {
+  width: 300px;
+  padding: 15px;
+  margin: 10px;
+  background-color: white;
+}
+main #blogList ul, main #postList ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+main #post-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  width: 70vw;
+  background-color: white;
+}
+main #post-wrapper #postForm {
+  width: 90%;
+  padding: 15px;
+}
+main #post-wrapper #postForm textarea {
+  resize: none;
+  height: 240px;
+}
+/*# sourceMappingURL=index.a6bcebaa.css.map */

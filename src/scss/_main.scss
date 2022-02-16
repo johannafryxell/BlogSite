@@ -1,0 +1,43 @@
+body{
+    background-color: whitesmoke;
+}
+
+main{
+    display: flex;
+
+    #create-form, #blogList, #postList{
+        width: 300px;
+        padding: 15px;
+        margin: 10px;
+        background-color: white;
+    }
+
+    #blogList, #postList{
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    #post-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        width: 70vw;
+        background-color: white;
+
+        #postForm{
+            width: 90%;
+            padding: 15px;
+
+            textarea{
+                resize: none;
+                height: 240px;
+            }
+        }
+    }
+
+    
+}
