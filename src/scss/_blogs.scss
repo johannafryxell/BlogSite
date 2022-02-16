@@ -13,6 +13,14 @@ header{
     #blogMenu{
         width: 300px;
     }
+
+    nav{
+        display: flex;
+        column-gap: 15px;
+        a{
+            text-decoration: none;
+        }
+    }
 }
 
 main{
